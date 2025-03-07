@@ -7,7 +7,7 @@ from keras.layers import concatenate
 
 
 def load_model41() -> Model:
-    weights = 'path/to/model41/weights'
+    weights = 'model41.h5'
     IMG_HEIGHT = 192
     IMG_WIDTH = 256
     IMG_CHANNELS = 3
